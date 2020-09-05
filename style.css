@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+.section {
+    padding: 100px 20px;
+    position: relative;
+    overflow: hidden;
+}
+.shapes {
+    transform: skewY(-11deg);
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: .7;
+}
+.shape-one {
+    background: linear-gradient(180deg, #64C1F6 0%, rgba(255, 255, 255, 0) 100%), #1A5ABA;
+    height: 40px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 5%;
+}
+.shape-two {
+    background: linear-gradient(180deg, #FFF7F7 0%, rgba(255, 255, 255, 0) 100%), #D3D3D3;
+    height: 40px;
+    position: absolute;
+    top: 140px;
+    left: 5%;
+    right: 0;
+}
+.shape-three {
+    background: linear-gradient(180deg, #FF0000 0%, rgba(255, 255, 255, 0) 100%), #FF9494;
+    height: 40px;
+    position: absolute;
+    top: 180px;
+    left: 10%;
+    right: 0;
+}
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #FFF;
+    padding: 50px 20px;
+    box-shadow: 0 30px 60px -12px rgba(50,50,93,.25), 0 18px 36px -18px rgba(0,0,0,.3), 0 -12px 36px -8px rgba(0,0,0,.025);
+}
